@@ -3,8 +3,6 @@ import { useNavigate } from 'react-router-dom'
 import { ROUTES } from '../Routing'
 import authService from '../Services/AuthService'
 
-
-
 export default function LoginPage() {
   const navigate = useNavigate()
 

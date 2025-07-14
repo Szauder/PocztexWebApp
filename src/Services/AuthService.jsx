@@ -42,6 +42,7 @@ const authService = {
       password: password
     }
   ),
+  logout: () => sendApiPostRequest('/auth/logout'),
   loggedAccount: () => sendApiGetRequest('/auth/currentaccount')
 }
 
